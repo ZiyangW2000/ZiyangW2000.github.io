@@ -2,7 +2,7 @@
 layout: post
 title:  "Region Semantically Aligned Network for Zero-Shot Learning"
 date:   2021-11-04 22:21:59 +00:00
-<!-- image: /images/jcdl2019.png -->
+image: /images/cikm21.png
 categories: research
 author: "Ziyang Wang*, Yunhao Gou, Jingjing Li, Yu Zhang, Yang Yang"
 authors: "<strong>Ziyang Wang</strong>, Yunhao Gou, Jingjing Li, Yu Zhang, Yang Yang"
