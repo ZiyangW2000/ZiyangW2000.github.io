@@ -3,7 +3,7 @@ layout: post
 title:  "Direct Fitting of Gaussian Mixture Models"
 date:   2019-05-29 22:21:59 +00:00
 image: /images/crv19.png
-categories: research
+categories: research1
 author: "Leo Keselman"
 authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
 venue: "CIKM21"
