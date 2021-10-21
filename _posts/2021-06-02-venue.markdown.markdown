@@ -6,7 +6,7 @@ image: /images/cikm21.png
 categories: research
 author: "Ziyang Wang*, Yunhao Gou, Jingjing Li, Yu Zhang, Yang Yang"
 authors: "<strong>Ziyang Wang</strong>, Yunhao Gou, Jingjing Li, Yu Zhang, Yang Yang"
-venue: "CIKM <p style:color = 'red'>(oral)</p>"
+venue: "<p>CIKM <p style="color:'red'">(oral)</p></p>"
 arxiv: https://arxiv.org/abs/1904.12573
 slides: /pdfs/jcdl2019.pdf
 code: https://github.com/leonidk/venue_scores
