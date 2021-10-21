@@ -11,4 +11,4 @@ arxiv: https://arxiv.org/abs/2110.07130
 <!-- slides: /pdfs/jcdl2019.pdf -->
 <!-- code: https://github.com/leonidk/venue_scores -->
 ---
-A bibliometric/scientometric project. Our main two results are a method of assigning value to all venues in computer science and a method to organize them into distinct subfields, all without using citation data. The resulting venue scores can be used to rank universities' by scholarly output, and produce a responsive author-level metric.
+We propose a novel ZSL framework named Region Semantically Aligned Network (RSAN), which transfers region-attribute alignment from seen classes to unseen classes.
