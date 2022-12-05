@@ -56,8 +56,8 @@
             </td>
           </tr>
         </table>
+        
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
@@ -69,7 +69,6 @@
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
-
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
