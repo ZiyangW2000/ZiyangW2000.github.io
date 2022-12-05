@@ -4,10 +4,10 @@ title:  "Language-Augmented Pixel Embedding for Generalized Zero-shot Learning"
 date:   2022-9-21 22:21:59 +00:00
 image: ../images/cikm21.jpg
 categories: research
-author: "Ziyang Wang*, Yunhao Gou, Jingjing Li, Yu Zhang, Yang Yang"
+author: "<strong>Ziyang Wang</strong>, Yunhao Gou, Lei Zhu, Heng Tao Shen"
 authors: "<strong>Ziyang Wang</strong>, Yunhao Gou, Lei Zhu, Heng Tao Shen"
 venue: "IEEE Transactions on Circuits and Systems for Video Technology"
-arxiv: https://arxiv.org/abs/2110.07130
+<!-- arxiv: https://arxiv.org/abs/2110.07130 -->
 <!-- slides: /pdfs/jcdl2019.pdf -->
 <!-- code: https://github.com/leonidk/venue_scores -->
 ---
