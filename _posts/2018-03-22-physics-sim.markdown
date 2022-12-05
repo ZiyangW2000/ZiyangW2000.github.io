@@ -1,18 +1,14 @@
 ---
 layout: post
-title:  "Optimizing for Physical Simulation"
-date:   2018-03-22 21:21:53 +00:00
-image: /images/physics.gif
-categories: CMU
-course: "16-745: Dynamic Optimization"
-author: "Leo Keselman"
-code: https://github.com/leonidk/physical_simulation
+title:  "Region Semantically Aligned Network for Zero-Shot Learning"
+date:   2021-10-04 22:21:59 +00:00
+image: ../images/cikm21.jpg
+categories: research
+author: "Ziyang Wang*, Yunhao Gou, Jingjing Li, Yu Zhang, Yang Yang"
+authors: "<strong>Ziyang Wang</strong>, Yunhao Gou, Jingjing Li, Yu Zhang, Yang Yang"
+venue: "CIKM21 (long oral)"
+arxiv: https://arxiv.org/abs/2110.07130
+slides: /pdfs/jcdl2019.pdf
+code: https://github.com/leonidk/venue_scores
 ---
-With [Chris Atkeson](http://www.cs.cmu.edu/~cga/) and Alex Spitzer. Using optimizers to match an observed trajectory.
-
-Additional details are in an [arXiv paper](https://arxiv.org/abs/1705.05548){:target="_blank"}.
-
-
-[Intel Press Release](https://newsroom.intel.com/chip-shots/intel-announces-tools-realsense-technology-development/){:target="_blank"}
-
-[YouTube](https://www.youtube.com/watch?v=pvXJSn22ujU){:target="_blank"}
+We propose a novel ZSL framework named Region Semantically Aligned Network (RSAN), which transfers region-attribute alignment from seen classes to unseen classes.
