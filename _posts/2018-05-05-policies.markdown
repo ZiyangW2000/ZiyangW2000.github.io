@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Venue Analytics: A Simple Alternative to Citation-Based Metrics"
-date:   2019-06-04 22:21:59 +00:00
-image: /images/jcdl2019.png
+title:  "Language-Augmented Pixel Embedding for Generalized Zero-shot Learning"
+date:   2022-9-21 22:21:59 +00:00
+image: ../images/2022_LAPE_TCSVT.jpg
 categories: research
-author: "Leo Keselman"
-authors: "<strong>Leonid Keselman</strong>"
-venue: "ACM/IEEE Joint Conference on Digital Libraries"
-arxiv: https://arxiv.org/abs/1904.12573
+author: "Ziyang Wang, Yunhao Gou, Lei Zhu, Heng Tao Shen"
+authors: "<strong>Ziyang Wang</strong>, Yunhao Gou, Lei Zhu, Heng Tao Shen"
+venue: "IEEE Transactions on Circuits and Systems for Video Technology"
+arxiv: https://arxiv.org/abs/2110.07130 
 slides: /pdfs/jcdl2019.pdf
-code: https://github.com/leonidk/venue_scores
+code: https://github.com/leonidk/venue_scores 
 ---
-A bibliometric/scientometric project. Our main two results are a method of assigning value to all venues in computer science and a method to organize them into distinct subfields, all without using citation data. The resulting venue scores can be used to rank universities' by scholarly output, and produce a responsive author-level metric.
+In this paper, we propose a novel GZSL framework named Language-Augmented Pixel Embedding (LAPE) , which directly maps the image pixels to the semantic attributes with cross-modal guidance.
