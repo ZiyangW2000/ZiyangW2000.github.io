@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Stochastic Sampling of Parametric Policies"
-date:   2018-05-05 21:21:53 +00:00
-image: /images/stochopt.png
-categories: CMU
-course: "16-745: Dynamic Optimization"
+title:  "Venue Analytics: A Simple Alternative to Citation-Based Metrics"
+date:   2019-06-04 22:21:59 +00:00
+image: /images/jcdl2019.png
+categories: research
 author: "Leo Keselman"
-paper: /pdfs/16745_lkeselma.pdf
+authors: "<strong>Leonid Keselman</strong>"
+venue: "ACM/IEEE Joint Conference on Digital Libraries"
+arxiv: https://arxiv.org/abs/1904.12573
+slides: /pdfs/jcdl2019.pdf
+code: https://github.com/leonidk/venue_scores
 ---
-Using a very simple algorithm to solve some very simple environments
-
-With [Chris Atkeson](http://www.cs.cmu.edu/~cga/) and Alex Spitzer. Using optimizers to match an observed trajectory.
+A bibliometric/scientometric project. Our main two results are a method of assigning value to all venues in computer science and a method to organize them into distinct subfields, all without using citation data. The resulting venue scores can be used to rank universities' by scholarly output, and produce a responsive author-level metric.
