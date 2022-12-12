@@ -2,7 +2,7 @@
 layout: post
 title:  "Language-Augmented Pixel Embedding for Generalized Zero-shot Learning"
 date:   2022-9-21 22:21:59 +00:00
-image: ../images/2022_LAPE_TCSVT.jpg
+image: https://i.328888.xyz/2022/12/12/y8y2t.png
 categories: research
 author: "Ziyang Wang, Yunhao Gou, Lei Zhu, Heng Tao Shen"
 authors: "<strong>Ziyang Wang</strong>, Yunhao Gou, Lei Zhu, Heng Tao Shen"
