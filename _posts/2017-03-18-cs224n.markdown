@@ -1,17 +1,11 @@
 ---
 layout: post
-title:  "Computational models for text summarization"
-date:   2017-03-18 22:20:59 +00:00
-image: /images/cs224n-poster.png
-categories: Stanford
-author: "Leo Keselman"
-subtitle: "RNNs language models"
-course: "CS224N: Natural Language Processing"
-poster: /pdfs/cs224n-poster.pdf
-paper: /pdfs/cs224n.pdf
-video: https://youtu.be/5TQEfSbpPvc
-code: https://github.com/ludwigschubert/cs224n-project
+title:  "Unified Embeddings for Multimodal Retrieval via Frozen LLMs"
+date:   2024-02-04 22:21:59 +00:00
+image: /images/UNIMUR.png
+categories: research
+author: "Ziyang Wang, Heba Elfardy, Markus Dreyer, Kevin Small, Mohit Bansal"
+authors: "<strong>Ziyang Wang</strong>, Heba Elfardy, Markus Dreyer, Kevin Small, Mohit Bansal"
+venue: "EACL2024 Findings"
 ---
-Work with [Ludwig Schubert](https://schubert.io/) on simplified encoders stages for text summarization.
-
-Abstractive text summarization is a blossoming area of natural language processing research in which short textual summaries are generated from longer input documents. Existing state-of-the-art methods take long time to train, and are limited to functioning on relatively short input sequences. We evaluate neural network architectures with simplified encoder stages, which naturally support arbitrarily long input sequences in a computationally efficient manner. 
+In this work, We present Unified Embeddings for Multimodal Retrieval (UNIMUR), a simple but effective approach that embeds multimodal inputs and retrieves visual and textual outputs via frozen Large Language Models (LLMs). Specifically, UNIMUR jointly retrieves multimodal outputs via unified multimodal embedding and applies dual alignment training to account for both visual and textual semantics. 
