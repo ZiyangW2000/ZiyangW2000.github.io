@@ -2,10 +2,10 @@
 layout: post
 title:  "A Simple LLM Framework for Long-Range Video Question-Answering"
 date:   2024-1-04 22:21:59 +00:00
-image: /images/ICCV23.png
+image: /images/LLoVi.png
 categories: research
 author: "Ce Zhang, Taixi Lu, Md Mohaiminul Islam, Ziyang Wang, Shoubin Yu, Mohit Bansal, Gedas Bertasius"
-authors: "Ce Zhang, Taixi Lu, Md Mohaiminul Islam, Ziyang Wang, Shoubin Yu, Mohit Bansal, Gedas Bertasius"
+authors: "Ce Zhang, Taixi Lu, Md Mohaiminul Islam, <strong>Ziyang Wang</strong>, Shoubin Yu, Mohit Bansal, Gedas Bertasius"
 venue: "arxiv"
 arxiv: https://arxiv.org/abs/2312.17235
 code: https://github.com/CeeZh/LLoVi
