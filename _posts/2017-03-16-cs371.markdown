@@ -10,4 +10,4 @@ venue: "ArXiv"
 arxiv: https://arxiv.org/abs/2403.08755
 code: https://github.com/klauscc/DAM
 ---
-We present LLoVi, a language-based framework for long-range video question-answering (LVQA). Unlike prior long-range video understanding methods, which are often costly and require specialized long-range video modeling design (e.g., memory queues, state-space layers, etc.), our approach uses a frame/clip-level visual captioner coupled with a Large Language Model (GPT-3.5, GPT-4) leading to a simple yet surprisingly effective LVQA framework.
+In this work, we investigate the challenging and relatively unexplored problem of rehearsal-free domain-incremental VidQA learning. Our proposed DAM framework outperforms existing state-of-the-art by 9.1% with 1.9% less forgetting on a benchmark with six distinct video domains.
