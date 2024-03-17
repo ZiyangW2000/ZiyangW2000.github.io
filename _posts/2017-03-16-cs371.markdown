@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "DAM: Dynamic Adapter Merging for Continual Video QA Learning"
-date:   2024-03-16 22:20:59 +00:00
+date:   2024-3-14 22:21:59 +00:00
 image: /images/DAM.png
-author: "Feng Cheng*, Ziyang Wang*, Yi-Lin Sung, Yan-Bo Lin, Mohit Bansal, Gedas Bertasius"
-code: [https://github.com/leonidk/cs371](https://github.com/klauscc/DAM)
-arxiv: https://arxiv.org/pdf/2403.08755.pdf
+categories: research
+author: "Feng Cheng† Ziyang Wang† Yi-Lin Sung Yan-Bo Lin Mohit Bansal Gedas Bertasius"
+authors: "Feng Cheng† Ziyang Wang† Yi-Lin Sung Yan-Bo Lin Mohit Bansal Gedas Bertasius"
+venue: "ArXiv"
+ArXiv: https://arxiv.org/abs/2403.08755
+code: https://github.com/klauscc/DAM
 ---
-
-In this work, We present a parameter-efficient method for continual video question-answering (VidQA) learning, namely DAM (dynamic adapter merging). 
-
+We present LLoVi, a language-based framework for long-range video question-answering (LVQA). Unlike prior long-range video understanding methods, which are often costly and require specialized long-range video modeling design (e.g., memory queues, state-space layers, etc.), our approach uses a frame/clip-level visual captioner coupled with a Large Language Model (GPT-3.5, GPT-4) leading to a simple yet surprisingly effective LVQA framework.
