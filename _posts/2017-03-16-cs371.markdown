@@ -7,7 +7,7 @@ categories: research
 author: "Feng Cheng† Ziyang Wang† Yi-Lin Sung Yan-Bo Lin Mohit Bansal Gedas Bertasius"
 authors: "Feng Cheng*, <strong>Ziyang Wang</strong>*, Yi-Lin Sung, Yan-Bo Lin, Mohit Bansal, Gedas Bertasius"
 venue: "ArXiv"
-ArXiv: https://arxiv.org/abs/2403.08755
+arxiv: https://arxiv.org/abs/2403.08755
 code: https://github.com/klauscc/DAM
 ---
 We present LLoVi, a language-based framework for long-range video question-answering (LVQA). Unlike prior long-range video understanding methods, which are often costly and require specialized long-range video modeling design (e.g., memory queues, state-space layers, etc.), our approach uses a frame/clip-level visual captioner coupled with a Large Language Model (GPT-3.5, GPT-4) leading to a simple yet surprisingly effective LVQA framework.
