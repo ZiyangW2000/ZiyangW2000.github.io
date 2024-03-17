@@ -6,8 +6,8 @@ image: /images/LLoVi.png
 categories: research
 author: "Ce Zhang, Taixi Lu, Md Mohaiminul Islam, Ziyang Wang, Shoubin Yu, Mohit Bansal, Gedas Bertasius"
 authors: "Ce Zhang, Taixi Lu, Md Mohaiminul Islam, <strong>Ziyang Wang</strong>, Shoubin Yu, Mohit Bansal, Gedas Bertasius"
-venue: "arxiv"
-arxiv: https://arxiv.org/abs/2312.17235
+venue: "ArXiv"
+ArXiv: https://arxiv.org/abs/2312.17235
 code: https://github.com/CeeZh/LLoVi
 ---
 We present LLoVi, a language-based framework for long-range video question-answering (LVQA). Unlike prior long-range video understanding methods, which are often costly and require specialized long-range video modeling design (e.g., memory queues, state-space layers, etc.), our approach uses a frame/clip-level visual captioner coupled with a Large Language Model (GPT-3.5, GPT-4) leading to a simple yet surprisingly effective LVQA framework.
