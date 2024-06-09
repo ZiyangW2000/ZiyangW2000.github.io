@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Compact VCSEL Projector"
-date:   2016-06-27 22:21:59 +00:00
-image: /images/vcsel.png
-categories: Intel
-patent: https://patents.google.com/patent/US10007994B2 
-patent2: https://patents.google.com/patent/US20170374244A1
-patent3: https://patents.google.com/patent/US9992474B2
+title:  "VideoTree: Adaptive Tree-based Video Representation for LLM Reasoning on Long Videos"
+date:   2024-06-04 22:21:59 +00:00
+image: /images/videotree.png
+categories: research
+author: "Ziyang Wang, Shoubin Yu, Elias Stengel-Eskin, Jaehong Yoon, Feng Cheng, Gedas Bertasius, Mohit Bansal"
+authors: "<strong>Ziyang Wang*</strong>, Shoubin Yu*, Elias Stengel-Eskin*, Jaehong Yoon, Feng Cheng, Gedas Bertasius, Mohit Bansal"
+venue: "Arxiv"
+arxiv: https://arxiv.org/abs/2405.19209
+code: https://github.com/Ziyang412/VideoTree
 ---
-A low-cost dense, configurable projector system for RGB-D depth sensors. 
+We introduce VideoTree, a query-adaptive and hierarchical framework for long-video understanding with LLMs. Specifically, VideoTree dynamically extracts query-related information from the input video and builds a tree-based video representation for LLM reasoning.
