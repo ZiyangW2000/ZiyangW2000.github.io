@@ -6,7 +6,7 @@ image: /images/LLoVi.png
 categories: research
 author: "Ce Zhang, Taixi Lu, Md Mohaiminul Islam, Ziyang Wang, Shoubin Yu, Mohit Bansal, Gedas Bertasius"
 authors: "Ce Zhang, Taixi Lu, Md Mohaiminul Islam, <strong>Ziyang Wang</strong>, Shoubin Yu, Mohit Bansal, Gedas Bertasius"
-venue: "ArXiv"
+venue: "EMNLP 2024 (main)"
 arxiv: https://arxiv.org/abs/2312.17235
 code: https://github.com/CeeZh/LLoVi
 ---
