@@ -7,6 +7,6 @@ categories: research
 author: "Xizi Wang, Feng Cheng, <strong>Ziyang Wang</strong>, Huiyu Wang, Md Mohaiminul Islam, Lorenzo Torresani, Mohit Bansal, Gedas Bertasius, David Crandall"
 authors: "Xizi Wang, Feng Cheng, <strong>Ziyang Wang</strong>, Huiyu Wang, Md Mohaiminul Islam, Lorenzo Torresani, Mohit Bansal, Gedas Bertasius, David Crandall"
 venue: "ArXiv"
-arxiv: https://arxiv.org/abs/2405.19209](https://arxiv.org/abs/2412.09601
+arxiv: https://arxiv.org/abs/2412.09601
 ---
 In this work, we propose TimeRefine to enhance the capability of Video LLMs in performing temporal grounding. Unlike previous approaches that focus on data curation or architectural enhancements, we focus on refining the learning objective to better suit temporal grounding within the Video LLM framework.
