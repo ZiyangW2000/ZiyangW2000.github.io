@@ -6,7 +6,7 @@ image: /images/videotree.png
 categories: research
 author: "Ziyang Wang, Shoubin Yu, Elias Stengel-Eskin, Jaehong Yoon, Feng Cheng, Gedas Bertasius, Mohit Bansal"
 authors: "<strong>Ziyang Wang*</strong>, Shoubin Yu*, Elias Stengel-Eskin*, Jaehong Yoon, Feng Cheng, Gedas Bertasius, Mohit Bansal"
-venue: "Arxiv"
+venue: "CVPR 2025"
 arxiv: https://arxiv.org/abs/2405.19209
 code: https://github.com/Ziyang412/VideoTree
 ---
