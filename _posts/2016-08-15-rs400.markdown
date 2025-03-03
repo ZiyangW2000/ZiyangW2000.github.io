@@ -1,17 +1,12 @@
 ---
 layout: post
-title:  "Intel RealSense 400"
-date:   2016-08-15 21:21:53 +00:00
-image: /images/rs400.jpg
-categories: Intel
-author: "Leo Keselman"
-subtitle: "Stereo Depth Camera"
+title:  "TimeRefine: Temporal Grounding with Time Refining Video LLM"
+date:   2024-06-04 22:21:59 +00:00
+image: /images/TimeRefine.png
+categories: research
+author: "Xizi Wang, Feng Cheng, <strong>Ziyang Wang</strong>, Huiyu Wang, Md Mohaiminul Islam, Lorenzo Torresani, Mohit Bansal, Gedas Bertasius, David Crandall"
+authors: "Xizi Wang, Feng Cheng, <strong>Ziyang Wang</strong>, Huiyu Wang, Md Mohaiminul Islam, Lorenzo Torresani, Mohit Bansal, Gedas Bertasius, David Crandall"
+venue: "ArXiv"
+arxiv: https://arxiv.org/abs/2405.19209](https://arxiv.org/abs/2412.09601
 ---
-My responsibilities included system performance, components of the stereo algorithm on the imaging ASIC, and contributions to the design of laser projector pattern. 
-
-Additional details are in an [arXiv paper](https://arxiv.org/abs/1705.05548){:target="_blank"}.
-
-
-[Intel Press Release](https://newsroom.intel.com/chip-shots/intel-announces-tools-realsense-technology-development/){:target="_blank"}
-
-[YouTube](https://www.youtube.com/watch?v=pvXJSn22ujU){:target="_blank"}
+In this work, we propose TimeRefine to enhance the capability of Video LLMs in performing temporal grounding. Unlike previous approaches that focus on data curation or architectural enhancements, we focus on refining the learning objective to better suit temporal grounding within the Video LLM framework.
