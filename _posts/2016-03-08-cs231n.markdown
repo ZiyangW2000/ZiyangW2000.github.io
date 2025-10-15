@@ -1,19 +1,13 @@
 ---
 layout: post
-title:  "CNNs for 3D Model Classification"
-date:   2016-03-08 22:20:59 +00:00
-image: /images/cs231n.png
-categories: Stanford
-author: "Leo Keselman"
-subtitle: "Learning Projections"
-course: "CS231n: Convolutional Neural Networks for Visual Recognition" 
-poster: /pdfs/cs231n-poster.pdf
-paper: /pdfs/cs231n.pdf
+title:  "SiLVR: A Simple Language-based Video Reasoning Framework"
+date:   2025-05-30 22:21:59 +00:00
+image: /images/silvr.pdf
+categories: research
+author: "Ce Zhang, Yan-Bo Lin, Ziyang Wang, Mohit Bansal, Gedas Bertasius"
+authors: "Ce Zhang*, Yan-Bo Lin*, <strong>Ziyang Wang</strong>,  Mohit Bansal, Gedas Bertasius"
+venue: "Arxiv"
+arxiv: https://arxiv.org/abs/2505.24869
+code: https://github.com/CeeZh/SILVR
 ---
-
-3D shape classification by learning an embedding function into a 2D image and using a pre-trained ImageNet network. At the time, got state-of-the-art results for single-view classification on ShapeNet40. 
-
-
-[CS231N Paper](/pdfs/cs231n.pdf){:target="_blank"}
-
-[CS231N Poster](/pdfs/cs231n-poster.pdf){:target="_blank"}
+We present SiLVR, a Simple Language-based Video Reasoning framework that decomposes complex video understanding into two stages. In the first stage, SiLVR transforms raw video into language-based representations using multisensory inputs, such as short clip captions and audio/speech subtitles. In the second stage, language descriptions are fed into a powerful reasoning LLM to solve complex video-language understanding tasks. **SiLVR has been awarded the 1st in Track 1B: Multi-Discipline Lecture Understanding at CVPR 2025 Multimodal Video Agent Workshop**
