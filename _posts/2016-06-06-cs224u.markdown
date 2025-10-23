@@ -2,7 +2,7 @@
 layout: post
 title:  "MEXA: Towards General Multimodal Reasoning with Dynamic Multi-Expert Aggregation"
 date:   2025-06-20 22:21:59 +00:00
-image: /images/mexa.pdf
+image: /images/mexa.png
 categories: research
 author: "Shoubin Yu, Yue Zhang, Ziyang Wang, Jaehong Yoon, Mohit Bansal"
 authors: "Shoubin Yu*, Yue Zhang*, <strong>Ziyang Wang</strong>, Jaehong Yoon, Mohit Bansal"
