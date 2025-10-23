@@ -2,7 +2,7 @@
 layout: post
 title:  "SiLVR: A Simple Language-based Video Reasoning Framework"
 date:   2025-05-30 22:21:59 +00:00
-image: /images/silvr.pdf
+image: /images/silvr.png
 categories: research
 author: "Ce Zhang, Yan-Bo Lin, Ziyang Wang, Mohit Bansal, Gedas Bertasius"
 authors: "Ce Zhang*, Yan-Bo Lin*, <strong>Ziyang Wang</strong>,  Mohit Bansal, Gedas Bertasius"
