@@ -2,7 +2,7 @@
 layout: post
 title:  "Video-RTS: Rethinking Reinforcement Learning and Test-Time Scaling for Efficient and Enhanced Video Reasoning"
 date:   2025-07-09 22:21:59 +00:00
-image: /images/videorts.pdf
+image: /images/videorts.png
 categories: research
 author: "Ziyang Wang, Jaehong Yoon, Shoubin Yu, Md Mohaiminul Islam, Gedas Bertasius, Mohit Bansal"
 authors: "<strong>Ziyang Wang*</strong>,Jaehong Yoon*, Shoubin Yu, Md Mohaiminul Islam, Gedas Bertasius, Mohit Bansal"
