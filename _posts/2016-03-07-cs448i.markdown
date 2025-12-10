@@ -1,20 +1,13 @@
 ---
 layout: post
-title:  "Wide-angle Stereo Lenses"
-date:   2016-03-07 22:20:59 +00:00
-image: /images/cs448i.png
-categories: Stanford
-author: "Leo Keselman"
-course: "CS448I: Computational Imaging and Display"
-subtitle: "Effects of optics on stereo depth generation"
-paper: /pdfs/cs448i.pdf
-poster: /pdfs/cs448i-poster.pdf
+title:  "Active Video Perception: Iterative Evidence Seeking for Agentic Long Video Understanding"
+date:   2025-12-10 22:21:59 +00:00
+image: /images/avp.png
+categories: research
+author: "Ziyang Wang, Honglu Zhou, Shijie Wang, Junnan Li, Caiming Xiong, Silvio Savarese, Mohit Bansal, Michael S. Ryoo, Juan Carlos Niebles"
+authors: "<strong>Ziyang Wang</strong>, Honglu Zhou, Shijie Wang, Junnan Li, Caiming Xiong, Silvio Savarese, Mohit Bansal, Michael S. Ryoo, Juan Carlos Niebles"
+venue: "Arxiv"
+arxiv: https://arxiv.org/abs/2512.05774
+code: https://activevideoperception.github.io/ 
 ---
-
-We introduce various projection functions in the analysis of stereoscopic depth sensors. 
-
-Through these methods, we are able to design stereo systems which are not bound by traditional quadratic depth error. Additionally, we demonstrate how existing correspondence algorithms can be modified to handle these lens designs. In addition, we can construct lens projection models which are more suited to natural lens designs, and build stereo systems with minimal re-sampling errors. This also allows us to construct  wide-angler stereoscopic systems than previously possible, without significant re-sampling or sacrificing accuracy. 
-
-[CS448I Paper](/pdfs/cs448i.pdf){:target="_blank"}
-
-[CS448I Poster](/pdfs/cs448i-poster.pdf){:target="_blank"}
+Inspired by active perception theory, we present Active Video Perception (AVP), which handles long video understanding as an iterative, query-driven evidence seeking process. Rather than passively caption the video frames, AVP treats the video as an interactive environment and actively decides what to inspect, where to focus, and at what granularity in order to acquire compact, time-stamped evidence directly from pixels. Concretely, AVP runs an iterative plan–observe–reflect process using MLLM agents. Empirically, AVP achieves best performance among agentic frameworks across five long video benchmarks, and surpasses the leading agentic method (DVD) by 5.7% in average accuracy while only requiring 18.4% inference time and 12.4% input tokens.
