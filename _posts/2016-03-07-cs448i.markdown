@@ -7,7 +7,7 @@ categories: research
 author: "Ziyang Wang, Honglu Zhou, Shijie Wang, Junnan Li, Caiming Xiong, Silvio Savarese, Mohit Bansal, Michael S. Ryoo, Juan Carlos Niebles"
 authors: "<strong>Ziyang Wang</strong>, Honglu Zhou, Shijie Wang, Junnan Li, Caiming Xiong, Silvio Savarese, Mohit Bansal, Michael S. Ryoo, Juan Carlos Niebles"
 venue: "Arxiv"
-arxiv: https://arxiv.org/abs/2512.05774
+arxiv: https://arxiv.org/abs/2512.05774/
 code: https://activevideoperception.github.io/ 
 ---
 Inspired by active perception theory, we present Active Video Perception (AVP), which handles long video understanding as an iterative, query-driven evidence seeking process. Rather than passively caption the video frames, AVP treats the video as an interactive environment and actively decides what to inspect, where to focus, and at what granularity in order to acquire compact, time-stamped evidence directly from pixels. Concretely, AVP runs an iterative plan–observe–reflect process using MLLM agents. Empirically, AVP achieves best performance among agentic frameworks across five long video benchmarks, and surpasses the leading agentic method (DVD) by 5.7% in average accuracy while only requiring 18.4% inference time and 12.4% input tokens.
