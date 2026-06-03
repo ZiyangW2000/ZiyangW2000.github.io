@@ -6,7 +6,7 @@ image: /images/silvr.png
 categories: research
 author: "Ce Zhang, Yan-Bo Lin, Ziyang Wang, Mohit Bansal, Gedas Bertasius"
 authors: "Ce Zhang*, Yan-Bo Lin*, <strong>Ziyang Wang</strong>,  Mohit Bansal, Gedas Bertasius"
-venue: "Arxiv"
+venue: "TMLR 2026"
 arxiv: https://arxiv.org/abs/2505.24869
 code: https://github.com/CeeZh/SILVR
 ---

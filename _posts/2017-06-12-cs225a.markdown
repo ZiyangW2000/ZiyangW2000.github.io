@@ -6,7 +6,7 @@ image: /images/ICCV23.png
 categories: research
 author: "Ziyang Wang*, Yi-Lin Sung, Feng Cheng, Gedas Bertasius, Mohit Bansal"
 authors: "<strong>Ziyang Wang</strong>, Yi-Lin Sung, Feng Cheng, Gedas Bertasius, Mohit Bansal"
-venue: "ICCV23"
+venue: "ICCV 2023"
 arxiv: https://arxiv.org/abs/2309.10091
 code: https://github.com/Ziyang412/UCoFiA
 ---

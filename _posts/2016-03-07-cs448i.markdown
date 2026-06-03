@@ -6,7 +6,7 @@ image: /images/avp.png
 categories: research
 author: "Ziyang Wang, Honglu Zhou, Shijie Wang, Junnan Li, Caiming Xiong, Silvio Savarese, Mohit Bansal, Michael S. Ryoo, Juan Carlos Niebles"
 authors: "<strong>Ziyang Wang</strong>, Honglu Zhou, Shijie Wang, Junnan Li, Caiming Xiong, Silvio Savarese, Mohit Bansal, Michael S. Ryoo, Juan Carlos Niebles"
-venue: "Arxiv"
+venue: "CVPR 2026 Findings"
 arxiv: https://arxiv.org/abs/2512.05774/
 code: https://activevideoperception.github.io/ 
 ---
