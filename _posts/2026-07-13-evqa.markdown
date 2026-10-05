@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Evidence-Backed Video Question Answering"
+date:   2026-07-13 22:21:59 +00:00
+image: /images/evqa.png
+categories: research
+author: "Shijie Wang, Honglu Zhou, Ziyang Wang, Ran Xu, Caiming Xiong, Silvio Savarese, Chen Sun, Juan Carlos Niebles"
+authors: "Shijie Wang, Honglu Zhou, <strong>Ziyang Wang</strong>, Ran Xu, Caiming Xiong, Silvio Savarese, Chen Sun, Juan Carlos Niebles"
+venue: "ECCV 2026"
+arxiv: https://arxiv.org/abs/2607.11862
+code: https://github.com/SalesforceAIResearch/EVQA
+---
+We propose Evidence-Backed Video Question Answering (E-VQA), a task requiring Video LLMs to jointly output an answer and precise spatio-temporal evidence: temporal segments and dense, tracked object segmentation masklets. We introduce ST-Evidence, the first human-verified benchmark for this setting, and ST-Evidence-Instruct, a 160k-scale training set, which yields large gains over size-matched baselines (e.g., +27.2 t-mean and +13.8 J&F on a 7B model).

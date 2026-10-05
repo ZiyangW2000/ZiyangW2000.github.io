@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Searching Videos as Trees: Self-Correcting Agents for Grounded Long Video QA"
+date:   2026-07-17 22:21:59 +00:00
+image: /images/vts.png
+categories: research
+author: "Ce Zhang, Ziyang Wang, Yulu Pan, Oluwatumininu Oguntola, Pranav Wagh, Qiyu Wu, Hiromi Wakaki, Mohit Bansal, Gedas Bertasius"
+authors: "Ce Zhang, <strong>Ziyang Wang</strong>, Yulu Pan, Oluwatumininu Oguntola, Pranav Wagh, Qiyu Wu, Hiromi Wakaki, Mohit Bansal, Gedas Bertasius"
+venue: "NeurIPS 2026"
+arxiv: https://arxiv.org/abs/2607.16189
+code: https://github.com/CeeZh/VTS
+---
+We propose VideoTreeSearch (VTS), which casts grounded long video QA as iterative self-correcting search over an adaptive temporal tree built from visual scene boundaries. An agent navigates the tree with discrete zoom_in, zoom_out, shift, and answer actions, making backtracking and recovery explicit, learnable primitives. VTS outperforms the strongest prior agentic methods by +12.5 mIoU on CG-Bench and +7.4 T-F1 on Haystack-Ego4D, and its learned policy transfers to general long video QA (Video-MME, MLVU, LVBench).

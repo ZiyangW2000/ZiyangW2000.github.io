@@ -6,6 +6,6 @@ image: /images/UNIMUR.png
 categories: research
 author: "Ziyang Wang, Heba Elfardy, Markus Dreyer, Kevin Small, Mohit Bansal"
 authors: "<strong>Ziyang Wang</strong>, Heba Elfardy, Markus Dreyer, Kevin Small, Mohit Bansal"
-venue: "EACL2024 Findings"
+venue: "EACL 2024 Findings"
 ---
 In this work, We present Unified Embeddings for Multimodal Retrieval (UNIMUR), a simple but effective approach that embeds multimodal inputs and retrieves visual and textual outputs via frozen Large Language Models (LLMs). Specifically, UNIMUR jointly retrieves multimodal outputs via unified multimodal embedding and applies dual alignment training to account for both visual and textual semantics. 

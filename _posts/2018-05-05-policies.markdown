@@ -6,6 +6,6 @@ image: /images/2022_LAPE_TCSVT.jpg
 categories: research
 author: "Ziyang Wang, Yunhao Gou, Jingjing Li, Lei Zhu, Heng Tao Shen"
 authors: "<strong>Ziyang Wang</strong>, Yunhao Gou, Jingjing Li, Lei Zhu, Heng Tao Shen"
-venue: "IEEE Transactions on Circuits and Systems for Video Technology"
+venue: "TCSVT 2022"
 ---
 In this paper, we propose a novel GZSL framework named Language-Augmented Pixel Embedding (LAPE), which directly maps the image pixels to the semantic attributes with cross-modal guidance.

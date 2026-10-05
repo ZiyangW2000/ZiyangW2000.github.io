@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TimeRefine: Temporal Grounding with Time Refining Video LLM"
-date:   2024-06-04 22:21:59 +00:00
+date:   2025-11-01 22:21:59 +00:00
 image: /images/TimeRefine.png
 categories: research
 author: "Xizi Wang, Feng Cheng, <strong>Ziyang Wang</strong>, Huiyu Wang, Md Mohaiminul Islam, Lorenzo Torresani, Mohit Bansal, Gedas Bertasius, David Crandall"
