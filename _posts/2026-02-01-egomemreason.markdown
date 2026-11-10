@@ -9,6 +9,8 @@ authors: "<strong>Ziyang Wang*</strong>, Yue Zhang*, Shoubin Yu, Ce Zhang, Zengq
 venue: "COLM 2026"
 year: 2026
 topic: memory-evidence
+citations: 16
+first_author: true
 badge: "Co-first"
 arxiv: https://arxiv.org/abs/2605.09874
 code: https://github.com/Ziyang412/EgoMemReason

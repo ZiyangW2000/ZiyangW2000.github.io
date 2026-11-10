@@ -9,6 +9,8 @@ authors: "<strong>Ziyang Wang*</strong>,Jaehong Yoon*, Shoubin Yu, Md Mohaiminul
 venue: "EMNLP 2025 Main"
 year: 2025
 topic: llm-video
+citations: 51
+first_author: true
 badge: "Co-first"
 arxiv: https://arxiv.org/abs/2507.06485
 code: https://github.com/Ziyang412/Video-RTS

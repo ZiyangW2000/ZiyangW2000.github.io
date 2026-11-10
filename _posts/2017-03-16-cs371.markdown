@@ -8,7 +8,9 @@ author: "Feng Cheng† Ziyang Wang† Yi-Lin Sung Yan-Bo Lin Mohit Bansal Gedas 
 authors: "Feng Cheng*, <strong>Ziyang Wang</strong>*, Yi-Lin Sung, Yan-Bo Lin, Mohit Bansal, Gedas Bertasius"
 venue: "WACV 2025"
 year: 2025
-topic: video-language
+topic: llm-video
+citations: 10
+first_author: true
 badge: "Co-first"
 arxiv: https://arxiv.org/abs/2403.08755
 code: https://github.com/klauscc/DAM

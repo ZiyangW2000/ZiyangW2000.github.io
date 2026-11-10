@@ -9,6 +9,7 @@ authors: "Ce Zhang, <strong>Ziyang Wang</strong>, Yulu Pan, Oluwatumininu Ogunto
 venue: "NeurIPS 2026"
 year: 2026
 topic: agentic
+citations: 0
 arxiv: https://arxiv.org/abs/2607.16189
 code: https://github.com/CeeZh/VTS
 ---

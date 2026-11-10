@@ -62,6 +62,17 @@ a { color: inherit; text-decoration: none; }
 .callout { font-size: 14.5px; color: var(--ink); line-height: 1.65; background: var(--accent-pale); border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; padding: 12px 16px; margin-top: 18px; }
 .callout strong { color: var(--accent); font-weight: 600; }
 
+/* Research interests */
+.interest-list { list-style: none; display: flex; flex-direction: column; gap: 16px; margin-top: 4px; }
+.interest { padding-left: 14px; border-left: 2px solid var(--accent-pale); }
+.interest-title { font-family: var(--serif); font-size: 16px; font-weight: 500; color: var(--ink); letter-spacing: -0.005em; }
+.interest-desc { font-size: 14px; color: var(--ink-soft); line-height: 1.6; margin: 2px 0 4px; }
+.interest-papers { font-size: 12.5px; color: var(--ink-mute); line-height: 1.6; }
+.interest-papers a { color: var(--accent); border-bottom: 1px solid var(--accent-pale); transition: border-color 0.2s ease; }
+.interest-papers a:hover { border-bottom-color: var(--accent); }
+.interest-earlier { font-size: 13.5px; color: var(--ink-mute); margin-top: 16px; }
+.interest-earlier a { color: var(--accent); }
+
 /* News */
 .news-list { list-style: none; max-height: 320px; overflow-y: auto; padding-right: 12px; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
 .news-list::-webkit-scrollbar { width: 5px; }

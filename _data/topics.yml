@@ -1,12 +1,13 @@
 # Order here is the order of groups in the "By Topic" publications view.
 # A post joins a group through `topic: <key>` in its front matter.
+# Titles match the Research Interests section in _layouts/default.html.
+# Within a group, posts with `first_author: true` are listed first; each part is sorted by
+# `citations` (Google Scholar snapshot, 2026-11-10; refresh the numbers in the posts now and then).
 - key: agentic
-  title: Agentic long video understanding
-- key: memory-evidence
-  title: Long-horizon memory and evidence-grounded reasoning
+  title: Agentic video understanding
 - key: llm-video
-  title: LLM-based video reasoning
-- key: video-language
-  title: Video-language models
+  title: Efficient video reasoning with LLMs
+- key: memory-evidence
+  title: Long-horizon memory and verifiable reasoning
 - key: earlier
   title: "Earlier work: retrieval and zero-shot learning"

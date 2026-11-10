@@ -9,6 +9,7 @@ authors: "David Wan, Han Wang, <strong>Ziyang Wang</strong>, Elias Stengel-Eskin
 venue: "ICML 2026"
 year: 2026
 topic: memory-evidence
+citations: 4
 arxiv: https://arxiv.org/abs/2602.11509
 ---
 Multimodal Fact-Level Attribution provides fine-grained, fact-level attribution for multimodal reasoning, enabling verifiable reasoning by grounding each claim in supporting visual and textual evidence.

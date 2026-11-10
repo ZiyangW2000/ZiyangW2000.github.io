@@ -9,6 +9,8 @@ authors: "<strong>Ziyang Wang</strong>, Honglu Zhou, Shijie Wang, Junnan Li, Cai
 venue: "CVPR 2026 Findings"
 year: 2026
 topic: agentic
+citations: 33
+first_author: true
 arxiv: https://arxiv.org/abs/2512.05774/
 code: https://activevideoperception.github.io/ 
 ---

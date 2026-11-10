@@ -9,6 +9,8 @@ authors: "<strong>Ziyang Wang*</strong>, Shoubin Yu*, Elias Stengel-Eskin*, Jaeh
 venue: "CVPR 2025"
 year: 2025
 topic: agentic
+citations: 400
+first_author: true
 badge: "Co-first"
 arxiv: https://arxiv.org/abs/2405.19209
 code: https://github.com/Ziyang412/VideoTree

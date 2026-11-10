@@ -9,6 +9,7 @@ authors: "Shoubin Yu*, Yue Zhang*, <strong>Ziyang Wang</strong>, Jaehong Yoon, M
 venue: "EMNLP 2025 Findings"
 year: 2025
 topic: llm-video
+citations: 11
 arxiv: https://arxiv.org/abs/2506.17113
 code: https://github.com/Yui010206/MEXA
 ---

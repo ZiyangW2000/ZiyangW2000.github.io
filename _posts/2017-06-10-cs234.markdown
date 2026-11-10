@@ -9,6 +9,7 @@ authors: "Ce Zhang, Taixi Lu, Md Mohaiminul Islam, <strong>Ziyang Wang</strong>,
 venue: "EMNLP 2024 Main"
 year: 2024
 topic: llm-video
+citations: 317
 arxiv: https://arxiv.org/abs/2312.17235
 code: https://github.com/CeeZh/LLoVi
 ---

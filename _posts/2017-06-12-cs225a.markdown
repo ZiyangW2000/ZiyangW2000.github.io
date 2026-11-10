@@ -9,6 +9,8 @@ authors: "<strong>Ziyang Wang</strong>, Yi-Lin Sung, Feng Cheng, Gedas Bertasius
 venue: "ICCV 2023"
 year: 2023
 topic: earlier
+citations: 162
+first_author: true
 arxiv: https://arxiv.org/abs/2309.10091
 code: https://github.com/Ziyang412/UCoFiA
 ---

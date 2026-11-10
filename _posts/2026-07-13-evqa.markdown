@@ -9,6 +9,7 @@ authors: "Shijie Wang, Honglu Zhou, <strong>Ziyang Wang</strong>, Ran Xu, Caimin
 venue: "ECCV 2026"
 year: 2026
 topic: memory-evidence
+citations: 1
 arxiv: https://arxiv.org/abs/2607.11862
 code: https://github.com/SalesforceAIResearch/EVQA
 ---
