@@ -1,154 +1,234 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.name }}</title>
-
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
-  <meta name="author" content="{{ site.name }}" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <meta name="author" content="{{ site.name }}">
+  <meta name="description" content="Ziyang Wang, CS Ph.D. candidate at UNC-Chapel Hill working on multimodal AI and agentic systems for video understanding and reasoning.">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="icon" href="{{ site.baseurl }}/images/favicon.ico">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
 </head>
 
-
-
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1>
-                Ziyang Wang
-              </h1>
-              <p>I am a fifth year CS Ph.D. candidate at <a href="https://www.unc.edu//">The University of North Carolina, Chapel Hill</a> advised by <a href="https://www.cs.unc.edu/~mbansal//">Prof. Mohit Bansal</a> and also work closely with <a href="https://www.gedasbertasius.com//">Prof. Gedas Bertasius</a>. My research focuses on multimodal AI and agentic systems for understanding and reasoning across different modalities (especially videos). My goal is to develop effective and efficient systems that integrate perception and reasoning to solve complex real-world problems.
-              </p>
-              <p>
-              In summer 2026, I was a Data Science Fellow and Research Intern at <a href="https://www.techatbloomberg.com/">Bloomberg</a> working with Dr. Debanjan Mahata and Dr. Daniel Preoțiuc-Pietro on large-scale multimodal document understanding. Previously, I worked as a research intern at Salesforce AI Research (manager: <a href="https://www.niebles.net/">Dr. Juan Carlos Niebles</a>, also working with Dr. Michael S. Ryoo, Dr. Junnan Li, and Dr. Honglu Zhou) on agentic long video understanding. I worked as a research intern at Meta, FAIR Perception team in 2024 (managers: <a href="https://ronghanghu.com/">Dr. Ronghang Hu</a>, and <a href="https://feichtenhofer.github.io/">Dr. Christoph Feichtenhofer</a>, also working with Dr. Po-Yao Huang and Dr. Daniel Bolya). Previously, I was an Applied Scientist Intern in <a href="https://www.amazon.science/">Amazon Alexa AI</a> working with <a href="https://www.amazon.science/author/heba-elfardy">Dr. Heba Elfardy</a>, <a href="http://www.kevinsmall.org/">Dr. Kevin Small</a>, <a href="https://markusdreyer.org/">Dr. Markus Dreyer</a>. I also interned in <a href="https://air.tsinghua.edu.cn/en/">Tsinghua AIR</a> working with <a href="https://air.tsinghua.edu.cn/en/info/1046/1194.htm">Prof. Jingjing Liu</a>. I finished my undergrad study at <a href="https://en.uestc.edu.cn">UESTC</a> and advised by <a href="https://lijin118.github.io//">Prof. Jingjing Li</a>.
 
-              </p>
-              <p>
-                My email address is ziyangw at cs . unc . edu, if you have any questions, feel free to contact me! 
+  <nav class="topnav">
+    <div class="topnav-inner">
+      <div class="topnav-name">Ziyang Wang</div>
+      <ul class="topnav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#more">Honors</a></li>
+      </ul>
+    </div>
+  </nav>
 
-              </p>
+  <div class="container">
 
-              
-              <p style="text-align:center">
+    <aside class="sidebar">
+      <div class="profile-photo"><img src="{{ site.baseurl }}/images/WechatIMG7.jpg" alt="Ziyang Wang"></div>
+      <h1 class="sidebar-name">Ziyang Wang</h1>
+      <div class="sidebar-affiliation">Ph.D. Candidate in Computer Science<br><a href="https://www.unc.edu/" target="_blank" rel="noopener">UNC-Chapel Hill</a></div>
+      <div class="sidebar-advisor">Advised by <a href="https://www.cs.unc.edu/~mbansal/" target="_blank" rel="noopener">Prof. Mohit Bansal</a></div>
 
-                <a href="https://scholar.google.com/citations?user=JuIqLPYAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="../ZiyangWang_CV_Oct_5.pdf">Curriculum Vitae</a> &nbsp;/&nbsp;
-                <a href="https://github.com/Ziyang412">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/ziyang-wang-882188203/">Linkedin</a> &nbsp;/&nbsp;
-                <a href="https://x.com/ZiyangW00">Twitter</a>
+      <div class="sidebar-icons">
+        <a href="mailto:{{ site.footer-links.email }}" title="Email" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+        <a href="https://scholar.google.com/citations?user=JuIqLPYAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+        </a>
+        <a href="https://github.com/Ziyang412" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/ziyang-wang-882188203/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://x.com/ZiyangW00" target="_blank" rel="noopener" title="X / Twitter" aria-label="X / Twitter">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="{{ site.baseurl }}/ZiyangWang_CV_Oct_5.pdf" target="_blank" rel="noopener" title="CV" aria-label="CV">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        </a>
+      </div>
+    </aside>
 
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="/images/WechatIMG7.jpg">
-            </td>
-          </tr>
-        </table>
+    <main class="main">
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-              <p>
-                In general, I am interested in building multimodal systems that perceive and reason over long and complex videos. My recent work includes agentic video understanding (Searching Videos as Trees, NeurIPS 2026; Active Video Perception, CVPR 2026; VideoTree, CVPR 2025), long-horizon memory and reasoning (EgoMemReason, COLM 2026), evidence-grounded and verifiable reasoning (Evidence-Backed VideoQA, ECCV 2026; Multimodal Fact-Level Attribution, ICML 2026), RL + test-time scaling (Video-RTS, EMNLP 2025), and LLM-based video understanding (LLoVi, MEXA, SiLVR). Earlier, I worked on video-text retrieval (UCoFiA, ICCV 2023) and zero-shot learning.
-              </p>
-            </td>
-          </tr>
-        </table>
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <div class="section" id="about">
+        <h2 class="section-title"><span>About</span></h2>
+        <p class="about-text">
+          I am a fifth year CS Ph.D. candidate at <a href="https://www.unc.edu/">The University of North Carolina, Chapel Hill</a> advised by <a href="https://www.cs.unc.edu/~mbansal/">Prof. Mohit Bansal</a>. My research focuses on <strong>multimodal AI and agentic systems</strong> for understanding and reasoning across different modalities (especially videos). My goal is to develop effective and efficient systems that integrate perception and reasoning to solve complex real-world problems.
+        </p>
+        <p class="callout">
+          <strong>I am on the job market</strong>, looking for full-time <strong>Research Scientist</strong> positions starting <strong>Summer 2027</strong>. Feel free to reach out!
+        </p>
+      </div>
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
+      <div class="section" id="research">
+        <h2 class="section-title"><span>Research Interests</span></h2>
+        <p class="about-text">
+          In general, I am interested in building multimodal systems that perceive and reason over long and complex videos. My recent work includes agentic video understanding (Searching Videos as Trees, NeurIPS 2026; Active Video Perception, CVPR 2026; VideoTree, CVPR 2025), long-horizon memory and reasoning (EgoMemReason, COLM 2026), evidence-grounded and verifiable reasoning (Evidence-Backed VideoQA, ECCV 2026; Multimodal Fact-Level Attribution, ICML 2026), RL + test-time scaling (Video-RTS, EMNLP 2025), and LLM-based video understanding (LLoVi, MEXA, SiLVR). Earlier, I worked on video-text retrieval (UCoFiA, ICCV 2023) and zero-shot learning.
+        </p>
+      </div>
 
-              <br>
-              <em>{{post.venue}}</em>
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
+      <div class="section" id="news">
+        <h2 class="section-title"><span>News</span><span class="section-title-side">Recent</span></h2>
+        <ul class="news-list">
+          {% for item in site.data.news %}
+          <li class="news-item"><span class="news-date">{{ item.date }}</span><span class="news-text">{{ item.text }}</span></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      {% assign pubs = site.posts | where_exp: "p", "p.categories contains 'research'" %}
+      <div class="section" id="publications">
+        <h2 class="section-title">
+          <span>Publications</span>
+          <div class="view-toggle">
+            <button class="active" data-view="topic">By Topic</button>
+            <button data-view="year">By Year</button>
+          </div>
+        </h2>
+
+        <div class="view-content active" id="view-topic">
+          {% for t in site.data.topics %}
+          {% assign group = pubs | where: "topic", t.key %}
+          {% if group.size > 0 %}
+          <div class="pub-group-title">{{ t.title }}</div>
+          <ul class="pub-list">
+            {% for p in group %}{% include pub.html post=p %}{% endfor %}
+          </ul>
           {% endif %}
           {% endfor %}
+        </div>
+
+        <div class="view-content" id="view-year">
+          {% assign years = pubs | map: "year" | uniq | sort | reverse %}
+          {% for y in years %}
+          <div class="pub-group-title">{{ y }}</div>
+          <ul class="pub-list">
+            {% for p in pubs %}{% if p.year == y %}{% include pub.html post=p %}{% endif %}{% endfor %}
+          </ul>
           {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
+        </div>
+      </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Honors &amp; Service</h2>
-              <p>
-                <strong>Bloomberg Data Science Ph.D. Fellowship</strong>, Bloomberg L.P., March 2026 — recognized for my research in long-context multimodal understanding and multimodal agents.
-              </p>
-              <p>
-                Co-organizer of the <a href="https://sites.google.com/view/t4v-cvpr25">Transformers for Vision (T4V) Workshop</a> @ CVPR 2025 &amp; 2026 (program committee member in 2023 &amp; 2024). Reviewer for ECCV, ICLR, CVPR, COLM, WACV, ACL Rolling Reviews, and IJCV.
-              </p>
-            </td>
-          </tr>
-        </table>
+      <div class="section" id="experience">
+        <h2 class="section-title"><span>Experience</span></h2>
+        <ul class="timeline">
+          <li class="tl-item">
+            <span class="tl-date">May 2026 — Aug 2026</span>
+            <div class="tl-content">
+              <div class="tl-title">Data Science Fellow and Research Intern · Bloomberg</div>
+              <div class="tl-sub">New York City, NY · Large-scale multimodal document understanding, with Dr. Debanjan Mahata and Dr. Daniel Preoțiuc-Pietro</div>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-date">May 2025 — Feb 2026</span>
+            <div class="tl-content">
+              <div class="tl-title">Research Intern · Salesforce AI Research</div>
+              <div class="tl-sub">Palo Alto, CA · Agentic long video understanding, with <a href="https://www.niebles.net/" target="_blank" rel="noopener">Dr. Juan Carlos Niebles</a>, Dr. Michael S. Ryoo, Dr. Junnan Li and Dr. Honglu Zhou</div>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-date">May 2024 — Dec 2024</span>
+            <div class="tl-content">
+              <div class="tl-title">Research Intern · Meta FAIR Perception</div>
+              <div class="tl-sub">Menlo Park, CA · Video foundation encoders, with <a href="https://ronghanghu.com/" target="_blank" rel="noopener">Dr. Ronghang Hu</a>, <a href="https://feichtenhofer.github.io/" target="_blank" rel="noopener">Dr. Christoph Feichtenhofer</a>, Dr. Po-Yao Huang and Dr. Daniel Bolya</div>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-date">May 2023 — Oct 2023</span>
+            <div class="tl-content">
+              <div class="tl-title">Applied Scientist Intern · Amazon Alexa AI</div>
+              <div class="tl-sub">Seattle, WA · Multimodal retrieval with LLMs, with <a href="https://www.amazon.science/author/heba-elfardy" target="_blank" rel="noopener">Dr. Heba Elfardy</a>, <a href="http://www.kevinsmall.org/" target="_blank" rel="noopener">Dr. Kevin Small</a> and <a href="https://markusdreyer.org/" target="_blank" rel="noopener">Dr. Markus Dreyer</a></div>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-date">Oct 2021 — May 2022</span>
+            <div class="tl-content">
+              <div class="tl-title">Research Intern · Tsinghua AIR</div>
+              <div class="tl-sub">Beijing, China · Advised by <a href="https://air.tsinghua.edu.cn/en/info/1046/1194.htm" target="_blank" rel="noopener">Prof. Jingjing Liu</a></div>
+            </div>
+          </li>
+        </ul>
+      </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Hobby</h2>
-              <p> 
-                  I am a die-heart Arsenal and Tar Heel fan. 
-              </p>
-            </td>
-          </tr>
-        </table>
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://leonidk.com/">Leonid Keselman's website</a>, thanks!
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+      <div class="section" id="education">
+        <h2 class="section-title"><span>Education</span></h2>
+        <ul class="timeline">
+          <li class="tl-item">
+            <span class="tl-date">2022 — present</span>
+            <div class="tl-content">
+              <div class="tl-title">Ph.D. in Computer Science</div>
+              <div class="tl-sub">UNC-Chapel Hill · Advised by <a href="https://www.cs.unc.edu/~mbansal/" target="_blank" rel="noopener">Prof. Mohit Bansal</a></div>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-date">2022 — 2024</span>
+            <div class="tl-content">
+              <div class="tl-title">M.S. in Computer Science</div>
+              <div class="tl-sub">UNC-Chapel Hill · During Ph.D. study</div>
+            </div>
+          </li>
+          <li class="tl-item">
+            <span class="tl-date">2018 — 2022</span>
+            <div class="tl-content">
+              <div class="tl-title">B.Eng. in Software Engineering</div>
+              <div class="tl-sub">University of Electronic Science and Technology of China · Advised by <a href="https://lijin118.github.io/" target="_blank" rel="noopener">Prof. Jingjing Li</a></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section" id="more">
+        <h2 class="section-title"><span>Honors &amp; Service</span></h2>
+        <div class="two-col">
+          <div class="col-section">
+            <h3>Honors</h3>
+            <ul>
+              <li><strong>Bloomberg Data Science Ph.D. Fellowship</strong>, Bloomberg L.P., March 2026 — recognized for my research in long-context multimodal understanding and multimodal agents.</li>
+            </ul>
+          </div>
+          <div class="col-section">
+            <h3>Service</h3>
+            <ul>
+              <li><strong>Co-organizer</strong> · <a href="https://sites.google.com/view/t4v-cvpr25" target="_blank" rel="noopener">Transformers for Vision (T4V) Workshop</a> @ CVPR 2025 &amp; 2026</li>
+              <li><strong>Program Committee</strong> · T4V @ CVPR 2023 &amp; 2024</li>
+              <li><strong>Reviewer</strong> · ECCV, ICLR, CVPR, COLM, WACV, ACL Rolling Reviews, IJCV</li>
+            </ul>
+          </div>
+        </div>
+        <p class="hobby">I am a die-heart Arsenal and Tar Heel fan.</p>
+      </div>
+
+      <div class="footer">© 2026 Ziyang Wang · Last updated {{ site.time | date: "%B %Y" }} · Design adapted from <a href="https://jq-ding.github.io/" target="_blank" rel="noopener">Jiaqi Ding's website</a></div>
+
+    </main>
+
+  </div>
+
+  <script>
+    document.querySelectorAll('.view-toggle button').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('.view-toggle button').forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        document.querySelectorAll('.view-content').forEach(function (c) { c.classList.remove('active'); });
+        document.getElementById('view-' + btn.dataset.view).classList.add('active');
+      });
+    });
+  </script>
+
 </body>
 
 </html>
-

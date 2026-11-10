@@ -7,6 +7,8 @@ categories: research
 author: "Shijie Wang, Honglu Zhou, Ziyang Wang, Ran Xu, Caiming Xiong, Silvio Savarese, Chen Sun, Juan Carlos Niebles"
 authors: "Shijie Wang, Honglu Zhou, <strong>Ziyang Wang</strong>, Ran Xu, Caiming Xiong, Silvio Savarese, Chen Sun, Juan Carlos Niebles"
 venue: "ECCV 2026"
+year: 2026
+topic: memory-evidence
 arxiv: https://arxiv.org/abs/2607.11862
 code: https://github.com/SalesforceAIResearch/EVQA
 ---

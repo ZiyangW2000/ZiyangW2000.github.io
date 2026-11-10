@@ -7,6 +7,9 @@ categories: research
 author: "Feng Cheng† Ziyang Wang† Yi-Lin Sung Yan-Bo Lin Mohit Bansal Gedas Bertasius"
 authors: "Feng Cheng*, <strong>Ziyang Wang</strong>*, Yi-Lin Sung, Yan-Bo Lin, Mohit Bansal, Gedas Bertasius"
 venue: "WACV 2025"
+year: 2025
+topic: video-language
+badge: "Co-first"
 arxiv: https://arxiv.org/abs/2403.08755
 code: https://github.com/klauscc/DAM
 ---

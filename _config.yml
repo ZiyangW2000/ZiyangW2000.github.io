@@ -92,3 +92,4 @@ exclude:
   - todo.txt
   - _temp/index.html
   - _temp/
+  - jq-ding.github.io-main.zip

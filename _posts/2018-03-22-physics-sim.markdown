@@ -7,6 +7,9 @@ categories: research
 author: "Ziyang Wang*, Yunhao Gou, Jingjing Li, Yu Zhang, Yang Yang"
 authors: "<strong>Ziyang Wang</strong>*, Yunhao Gou*, Jingjing Li, Yu Zhang, Yang Yang"
 venue: "CIKM 2021 (Long Oral)"
+year: 2021
+topic: earlier
+badge: "Co-first"
 arxiv: https://arxiv.org/abs/2110.07130
 ---
 We propose a novel ZSL framework named Region Semantically Aligned Network (RSAN), which transfers region-attribute alignment from seen classes to unseen classes.

@@ -7,6 +7,9 @@ categories: research
 author: "Ziyang Wang, Yue Zhang, Shoubin Yu, Ce Zhang, Zengqi Zhao, Jaehong Yoon, Hyunji Lee, Gedas Bertasius, Mohit Bansal"
 authors: "<strong>Ziyang Wang*</strong>, Yue Zhang*, Shoubin Yu, Ce Zhang, Zengqi Zhao, Jaehong Yoon, Hyunji Lee, Gedas Bertasius, Mohit Bansal"
 venue: "COLM 2026"
+year: 2026
+topic: memory-evidence
+badge: "Co-first"
 arxiv: https://arxiv.org/abs/2605.09874
 code: https://github.com/Ziyang412/EgoMemReason
 ---

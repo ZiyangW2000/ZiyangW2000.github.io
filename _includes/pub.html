@@ -1,0 +1,21 @@
+{% assign p = include.post %}
+<li class="pub">
+  <div class="pub-thumb">
+    <img src="{{ p.image }}" alt="{{ p.title | escape }}" loading="lazy">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">{% if p.arxiv %}<a href="{{ p.arxiv | strip }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+    <div class="pub-authors">{{ p.authors }}</div>
+    <div class="pub-meta">
+      <span class="pub-venue">{{ p.venue }}</span>
+      {% if p.badge %}<span class="pub-badge">{{ p.badge }}</span>{% endif %}
+      <span class="pub-links">
+        {% if p.arxiv %}<a href="{{ p.arxiv | strip }}" target="_blank" rel="noopener">arxiv</a>{% endif %}
+        {% if p.code %}<a href="{{ p.code | strip }}" target="_blank" rel="noopener">code</a>{% endif %}
+        {% if p.video %}<a href="{{ p.video | strip }}" target="_blank" rel="noopener">video</a>{% endif %}
+        {% if p.poster %}<a href="{{ p.poster | strip }}" target="_blank" rel="noopener">poster</a>{% endif %}
+        {% if p.slides %}<a href="{{ p.slides | strip }}" target="_blank" rel="noopener">slides</a>{% endif %}
+      </span>
+    </div>
+  </div>
+</li>

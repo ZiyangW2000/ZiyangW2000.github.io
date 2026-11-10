@@ -1,0 +1,12 @@
+# Order here is the order of groups in the "By Topic" publications view.
+# A post joins a group through `topic: <key>` in its front matter.
+- key: agentic
+  title: Agentic long video understanding
+- key: memory-evidence
+  title: Long-horizon memory and evidence-grounded reasoning
+- key: llm-video
+  title: LLM-based video reasoning
+- key: video-language
+  title: Video-language models
+- key: earlier
+  title: "Earlier work: retrieval and zero-shot learning"
